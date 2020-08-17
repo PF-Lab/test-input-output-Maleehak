@@ -3,7 +3,7 @@
     {
       "name": "TEST INPUT/OUTPUT",
       "setup": "sudo apt install g++",
-      "run": "g++ -o output try.cpp",
+      "run": "g++ -o output try.cpp && ./output" ,
       "input": "",
       "output": "0",
       "comparison": "exact",
