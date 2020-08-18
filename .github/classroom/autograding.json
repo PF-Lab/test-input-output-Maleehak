@@ -3,9 +3,9 @@
     {
       "name": "TEST INPUT/OUTPUT",
       "setup": "sudo apt install g++",
-      "run": "g++ -o output try.cpp ; ./a.out",
-      "input": "1",
-      "output": "Hello world 1",
+      "run": "g++ -o output try.cpp && ./output" ,
+      "input": "",
+      "output": "0",
       "comparison": "exact",
       "timeout": 10,
       "points": null

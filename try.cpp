@@ -1,8 +1,7 @@
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int main(){
-    int value;
-    cin>>value;
-    cout<<"Hello world "<<value;
+    cout<<"Hello world 1";
     return 0;
 }
